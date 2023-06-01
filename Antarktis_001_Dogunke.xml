@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die antarktischen Eisverhältnisse : Auszug aus meinem Tagebuch der Südpolarreise der "Belgica" 1898-1899</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/12279804X">
+                  <surname>Arctowski</surname>
+                  <forename>Henryk</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Dogunke</surname>
+                  <forename>Swantje</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2023-05-08T13:38:54Z</date>
+               </resp>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+         <extent>
+            <measure type="images">126</measure>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               Hochschule der Medien Stuttgart
+            </publisher>
+            <publisher>
+               Thrüingische Universitäts- und Landesbibliothek Jena
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MS"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Die antarktischen Eisverhältnisse : Auszug aus meinem Tagebuch der Südpolarreise der "Belgica" 1898-1899</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/12279804X">
+                        <surname>Arctowski</surname>
+                        <forename>Henryk</forename>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://d-nb.info/gnd/132560585">
+                        <surname>Perthes</surname>
+                        <forename>Bernhard</forename>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1"/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">IV, 121 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher><name>Perthes Gotha</name></publisher>
+                  <pubPlace>Gotha</pubPlace>
+                  <date type="publication">1903</date>
+                  <date type="creation">1898-1899</date>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">A. Petermann's Mitteilungen aus Justus Perthes' Geographischer Anstalt / Ergänzungsheft</title>
+                  <biblScope unit="volume">144</biblScope>
+               </seriesStmt>
+            </biblFull>
+            <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+               <msIdentifier>
+                  <repository>Thüringer Universitäts-und Landesbibliothek</repository>
+                  <idno>
+                     <idno type="shelfmark"> 4 Geogr.I,63/1 :30.7</idno>
+                     <idno type="URLCatalogue">https://kxp.k10plus.de/DB=2.1/PPNSET?PPN=184397103</idno>
+                     <idno type="URLImages">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00029505</idno>
+                     <idno type="URN">https://nbn-resolving.org/urn:nbn:de:urmel-f02861e2-7dc3-495b-8f37-62a980aaebd52</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+         <editorialDecl>
+            <p>
+               Zeilenumbrüche nach Original
+               Auszeichnungen von Personen, Orten
+               Kommentierung Registereinträge
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- Gleich werde ich den Seitenanfang durch das selbstschließene pb-Element einleiten und einen Verweis auf das Digitalisat einfügen -->
+         <pb facs="https://e-learning.hdm-stuttgart.de/moodle/pluginfile.php/459707/mod_folder/content/0/18814336831-5.pdf"/>
+         <!-- Das stört etwas, aber leider müssen wir die Tagebucheinträge in ein Kapitel einordnen. Wir nehmen als "Kapitel" unsere Nummer vom Beginn -->   
+         <div type="chapter" n="001">
+            <div type="diaryEntry" n="1">
+               <p>Mittwoch, den 19. Januar 1898. Morgens während der Lotung unter 61° 05 S. Br.,<lb/>
+                  63° 11 W. L. macht mich der Kommandant auf den Eisblink am südlichen Horizont auf-<lb/>
+                  merksam. Der Himmel ist gleichmäßig von einer dünnen Wolkendecke verhüllt, und der<lb/>
+                  Eisblink, der sich durch seine weiße Farbe von dem Grau der Wolken abhebt, erscheint<lb/>
+                  wie ein Schlitz am Horizont hin. Dieser weiße Streifen ist unzusammenhängend, etwas<lb/>
+                  hügelig, und erhebt sich zu einer Höhe von 10 bis 25. 8 Uhr abends signalisiert <persName ref="https://d-nb.info/gnd/116850892">Lecointe</persName><lb/>
+                  den ersten Eisberg. Er ist 10 oder 12 Meilen südlich und sieht aus wie ein Dom, der<lb/>
+                  sich über dem Horizont des Meeres abhebt.<lb/>
+               </p>
+            </div>
+            <div type="diaryEntry" n="2">
+               <p>Donnerstag, den 20. Jannar. Nachmittags 4 Uhr kommt Land in Sicht. Um 6 Uhr-<lb/>
+                  hat sich der Horizont aufgeklärt, und man sieht die hohen Berge der <placeName ref="http://vocab.getty.edu/page/tgn/1010313">Süd-Shetland-Inseln</placeName><lb/>
+                  dunkel hervortreten; man sieht auch, daß die weniger steilen Partien vollständig mit Schnee<lb/>
+                  bedeckt sind. Vor der Inselgruppe ist ein ganz weißer Eisberg mit langgestrecktem, zich-<lb/>
+                  zackförmigem Profil. Um 9 Uhr abends, nach einer Lotung unter 62° 12’ S. Br., 61° 53 W.L.,<lb/>
+                  ist das Relief des Gebirges deutlich sichtbar.<lb/>
+                  Untenstehende Figur zeigt die Umrisse durchs Fernglas gesehen. Die Smith-Insel, die<lb/>
+                  man rechts von der Livingston-, Rugged- und Snow-Insel sieht, die auf der Figur abgezeichnet<lb/>
+                  sind, taucht ganz senkrecht ins Meer. Sie hat das Aussehen eines großen Buckels, der<lb/>
+                  beiderseits durch hohe, steile Kliffe abgeschnitten wird. Etwas später sieht man in SSW.<lb/>
+                  einen großen Eisberg; andere sind vor den Inseln. Um 11 Uhr fahren wir an Treibeis<lb/>
+                  entlang, aber kurz darauf hindert uns ein leichter Nebel noch weiter Ausblick zu halten.<lb/>
+               </p>
+            </div>
+            <div type="diaryEntry" n="3">
+               <p>Freitag, den 21. Januar. Etwas nach 8 Uhr spüren wir beim Frühstück plötzlich<lb/>
+                  einen Stoß, der das Schiff zweimal in die Höhe zu heben scheint. Wir eilen auf Deck.<lb/>
+                  Ein ziemlich dichter Nebel hindert uns weit zu sehen, trotzdem sieht man rechts einen<lb/>
+                  großen Eisblock schwimmen, und in weiterer Entfernung werden vor und zu beiden Seiten<lb/>
+                  die Gestalten einiger hübscher Eisberge undeutlich sichtbar. Aber o wehl ganz in unserer<lb/>
+                  Nähe ragt ein Fels aus dem Wasser hervor, und wir loteten soeben ... mit dem Kiel des<lb/>
+                  Schiffes! Der Nebel hebt sich ein wenig, und wir sehen uns ringsum von Klippen umgeben.<lb/>
+                  Einige kleine Eisberge sind an den Untiefen gestrandet, während andere frei umher<lb/>
+                  schwimmen. Es wird still. Während man schweigend das Kommando an Bord erwartet,<lb/>
+                  hört man die Woge, die über den Felsen tost, und das Krachen des Eises. Die Maschine<lb/>
+                  arbeitet rückwärts, und nach wenigen Minuten fahren wir wieder weiter. Die Schönheit<lb/>
+                  der Eisbergtrümmer, die sich in unserer Nähe befinden, zieht unsere Aufmerksamkeit auf<lb/>
+                  sich und läßt uns die Gefahr vergessen, der wir eben entgangen sind.<lb/>
+                  
+                  
+                  <pb facs="https://e-learning.hdm-stuttgart.de/moodle/pluginfile.php/459707/mod_folder/content/0/1881439c434-6.pdf"/>
+                  Der eine gleicht einem plump aus einem großen Zuckerblock gehauenen Turme. Ein<lb/>
+                  anderer sieht aus wie eine kleine gebirgige Insel; er hat eine Bucht, in die sich die Wellen<lb/>
+                  der hohlen See hineinstürzen und in Schaum auflösen. Diese Eisberge sind zerrissen und<lb/>
+                  haben bizarre Konturen.<lb/>
+                  Um 11 Uhr erscheinen neue Eismassen, aber auch neue Felsen. Die schwimmenden<lb/>
+                  Berge ziehen Schwänze von kleineren Eisstücken hinter sich her. Gegen Mittag hebt sich<lb/>
+                  der Nebel ein wenig, und durch die hellen Streifen, die sich bilden, können wir einige<lb/>
+                  Minuten lang relativ niedriges Land erkennen, das mit weiten Schneefeldern bedeckt ist,<lb/>
+                  die in steilen Eiskliffen senkrecht ins Meer abstürzen. Wahrscheinlich ist es Snow Island.<lb/>
+                  Weiter entfernt wird in östlicher Richtung anderes Land sichtbar; es sind Bergspitzen, die<lb/>
+                  aber schneefrei zu sein scheinen. Vor gegen Boyd Street zu türmen sich mehrere große<lb/>
+                  Felsen auf, die sehr steil, und infolgedessen trotz ihrer ganz ansehnlichen Höhe vollständig<lb/>
+                  kahl sind.<lb/>
+                  <lb/>
+                  Die Eisberge, die wir sehen, entstammen zweifellos den Gletschern von Snow Island,<lb/>
+                  denn sie haben fast alle eine mehr oder weniger senkrechte Wand, die eine noch frische<lb/>
+                  Bruchfläche zeigt. Sie scheinen indes nicht aus Eis im eigentlichen Sinne zu bestehen,<lb/>
+                  denn sie sind weiß wie Firn. Nachmittags steuer wir auf die Boyd-Straße zu, um in die<lb/>
+                  Bransfield-Straße zu gelangen; das Meer scheint, soviel wir bei dem Nebel sehen können,<lb/>
+                  ganz eisfrei zu sein, kein einziger Eisberg ist in Sicht.<lb/>
+               </p>
+            </div>
+            <div type="diaryEntry" n="4">
+               <p>Sonnabend, den 22. Januar. Wir sind nur noch 18 an Bord. Wir haben Wiencke<lb/>
+                  verloren; er ist ertrunken. Eine Welle hat ihn fortgerissen. Es ist doch eine sehr traurige<lb/>
+                  Lage, ganz in der Nähe eines Menschen zu sein, der mit dem Tode ringt, ohne ihm helfen<lb/>
+                  zu können. Unsere Anstrengungen waren vergebens. Zweimal hatte man ihn schon erfaßt,<lb/>
+                  aber das Schicksal hat es nicht gewollt. Heiter und voll Eifer hatte man ihn noch bei<lb/>
+                  seiner Arbeit gesehen, und wenige Augenblicke später treibt sein im kalten Naß erstarrter<lb/>
+                  Körper bewegungslos, das Auge starr, als Spiel der Wellen fort, ... jetzt ist er nicht mehr.-<lb/>
+                  Während der Nacht hat schlechtes Wetter eingesetzt, und den ganzen Tag hat der<lb/>
+                  <lb/>
+                  Wind unter heftigen Stößen ge-<lb/>
+                  tobt; das Meer war stark be-<lb/>
+                  wegt. Der Nebel verdeckt uns<lb/>
+                  immer noch die Aussicht, und<lb/>
+                  seit Mittag fällt von Zeit zu<lb/>
+                  Zeit schmelzender Schnee oder<lb/>
+                  Graupenhagel. Fortwährend be-<lb/>
+                  merken wir Eisberge, die im<lb/>
+                  Nebel undeutlich sichtbar wer-<lb/>
+                  den, mitunter aber auch während<lb/>
+                  kurzer Durchblicke sich in ihrer<lb/>
+                  ganzen Schönheit zeigen. Viele<lb/>
+                  den 22. um 9 Thr vormittags.<lb/>
+                  von ihnen sind tafelförmig; solche<lb/>
+                  mit komplizierteren Formen sind seltener. Tatsächlich kommen sie nicht weit her, denn<lb/>
+                  wir haben Land in Sicht.<lb/>
+                  Um 6 Uhr abends hatte sich das Wetter aufgeklärt, und wir sehen eine ausgedehnte<lb/>
+                  Insel, vollständig von einer dicken Eis- und Schneehülle bedeckt und von großen kahlen<lb/>
+                  Felsen umgeben. Die Oberfläche ist einförmig; alle Unebenheiten des Bodens liegen ver-<lb/>
+                  graben unter ungeheuren Haufen ewiger Schneemassen, die steil ins Meer abfallen, und von<lb/>
+                  denen sich zweifellos die schwimmenden Eisblöcke, die wir in der unmittelbaren Umgebung<lb/>
+                  der Insel sehen, losgelöst haben. Es ist wahrscheinlich die Low-Insel, die wir sehen. Um<lb/>
+                  
+                  
+                  <pb facs="https://e-learning.hdm-stuttgart.de/moodle/pluginfile.php/459707/mod_folder/content/0/188143a2d32-7.pdf"/>
+                  Schutz vor dem Winde zu haben, fahren wir an der Insel hin, verlieren sie aber dann aus<lb/>
+                  den Augen. Nachts 11 Uhr sehen wir einen großen Tafeleisberg, von senkrechten Steil-<lb/>
+                  wänden begrenzt, mit einer ebenen Schneedecke, über die ein kleiner Hügel emporragt.<lb/>
+                  Sonntag, den 23. Jannar. Der Himmel klärt sich auf. 10 Uhr morgens bilden sich<lb/>
+                  Öffnungen in den Stratuswolken am Horizont, der Gesichtskreis dehnt sich weiter aus, und<lb/>
+                  die Sonne durchbricht zeitweise die Alto-Stratusschicht, die uns den Himmel verdeckt. Wir<lb/>
+                  befinden uns noch nahe bei der Low-Insel. Wir sehen sie heute viel besser; sie erscheint<lb/>
+                  niedrig. In ihrer Umgebung sind viele Felsen und schroffe, ganz kahle Inselchen. Die Insel<lb/>
+                  liegt leewärts, und der Ammoniakgeruch des Quanos verpestet die Luft. Der Kommandant<lb/>
+                  läßt den Kurs nach OSO richten, um vorwärts zu kommen. Der schöne Eisberg, den wir<lb/>
+                  gestern abend bemerkt hatten, ist wieder in Sicht, und wir kommen nahe an ihm vorbei.<lb/>
+                  Er hat eine Höhe von wenigstens 40 m und ist über 250 m lang. Obenstehende Figuren<lb/>
+                  zeigen ihn von beiden Seiten. Die Kuppe des Hügels, der sich auf seiner Oberfläche erhebt,<lb/>
+                  besteht aus kleinen parallelen und wagrechten Schneeschichten. Nur am Fuße der Eismauer<lb/>
+                  zeigt der Eisberg eine blau-grüne, sehr matte Färbung; in der Höhlung hingegen ist das<lb/>
+                  Blau intensiv (Forelsche Farbenskala Nr. 3).<note type="editorial">Von François-Alphonse Forel entwickelte Farbskala</note><lb/>
+                  Mit unserer Entfernung von der Insel wird das Treibeis immer seltener. Windstöße<lb/>
+                  setzen wieder ein, Nebel und Regen. Gegen 3 Uhr kommen neue Eismassen in Sicht. Im<lb/>
+                  allgemeinen sind diese Eisberge tafelförmig; manche haben auch die Gestalt isolierter Berg-<lb/>
+                  spitzen, ebenso sieht man Tafeln, die sich nach einer Seite neigen, mit deutlich sichtbarer<lb/>
+                  Streifung, die parallel zur Schneedecke verläuft.
+               </p>
+            </div>
+         </div>
+         
+      </body>
+   </text>
+</TEI>
