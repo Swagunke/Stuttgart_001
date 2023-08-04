@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    
    <teiHeader>
       <fileDesc>
@@ -107,7 +107,7 @@
          <!-- Das stört etwas, aber leider müssen wir die Tagebucheinträge in ein Kapitel einordnen. Wir nehmen als "Kapitel" unsere Nummer vom Beginn -->   
          <div type="chapter" n="001">
             <div type="diaryEntry" n="1">
-               <p>Mittwoch, den 19. Januar 1898. Morgens während der Lotung unter 61° 05 S. Br.,<lb/>
+               <p>Mittwoch, den 19. Januar 1898. <hi cert="high" rend="underlined" xml:space="default">Morgens</hi> während der Lotung unter 61° 05 S. Br.,<lb/>
                   63° 11 W. L. macht mich der Kommandant auf den Eisblink am südlichen Horizont auf-<lb/>
                   merksam. Der Himmel ist gleichmäßig von einer dünnen Wolkendecke verhüllt, und der<lb/>
                   Eisblink, der sich durch seine weiße Farbe von dem Grau der Wolken abhebt, erscheint<lb/>
